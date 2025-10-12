@@ -1,0 +1,54 @@
+*{
+  margin: 0%;
+}
+body{
+  background:black;
+}
+.main-div{
+ justify-content: center;
+ align-items: center;
+ display:inline-block;
+ padding: 20px;
+ font-family: tahoma;
+ margin-top: 200px;
+ margin-left: 200px;
+}
+
+main{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.main-div td{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  line-height: 30px;
+  border-radius: 3px;
+  color: white;
+}
+
+.main-div li{
+  border: 1px solid black;
+  background:cornsilk;
+  width: 300px;
+  line-height: 30px;
+  padding:8px;
+  border-radius: 2px;
+  list-style-type: none;
+}
+.main-div li:Hover{
+  background:#bbbb;
+}
+
+@media screen and (max-width:600px){
+  section{
+    flex-direction: column;
+  }
+  .main-div{
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+  }
+  
+}
