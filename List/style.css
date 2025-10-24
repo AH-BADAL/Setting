@@ -40,15 +40,3 @@ main{
   background:#bbbb;
 }
 
-@media screen and (max-width:600px){
-  section{
-    flex-direction: column;
-  }
-  .main-div{
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
-  }
-  
-}
